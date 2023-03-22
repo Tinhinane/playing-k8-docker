@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sec
+  labels:
+    app: sec
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sec    
+  template:
+    metadata:
+      labels:
+        app: sec        
+    spec:      
+      containers:
+      - name: busyboxbackend
+        image: stephaneey/apt:dev
+        command: ["/bin/sleep", "30d"]
+        imagePullPolicy: Always
