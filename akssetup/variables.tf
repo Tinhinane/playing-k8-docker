@@ -1,0 +1,3 @@
+variable "attendee" {
+    type = string
+}
