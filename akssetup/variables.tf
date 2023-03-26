@@ -1,3 +1,0 @@
-variable "attendee" {
-    type = string
-}

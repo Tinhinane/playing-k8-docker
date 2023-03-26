@@ -1,6 +1,0 @@
-akssetup/.terraform/*
-akssetup/terraform.tfvars
-akssetup/terraform.tfstate
-akssetup/*.backup
-akssetup/.terraform
-akssetup/*.swp
